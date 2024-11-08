@@ -1,6 +1,6 @@
-# Control Applications Lab
+# Practical Projects: Applications and System Control
 
-This repository contains projects developed for the **Applications and System Control** course. The focus of these projects is on digital filters and their applications, including moving average and median filters, implemented in C for microcontrollers.
+This repository contains practical projects developed for the **Applications and System Control** course. The focus of these projects is on designing and implementing digital filters and control applications, primarily using C for microcontrollers. Each project explores different filtering techniques and control mechanisms useful in embedded systems.
 
 ## Table of Contents
 - [Projects](#projects)
@@ -8,12 +8,13 @@ This repository contains projects developed for the **Applications and System Co
 - [Project Details](#project-details)
   - [Moving Average Filter](#moving-average-filter)
   - [Median Filter](#median-filter)
-- [License](#license)
+  - [Proteus Lab](#proteus-lab)
 
 ## Projects
 
 1. **Moving Average Filter**: A digital filter that calculates the average of the most recent samples to smooth signal noise.
 2. **Median Filter**: A digital filter that selects the median value from a set of samples, useful for removing outlier noise.
+3. **Proteus Lab**: Contains files and simulations developed with Proteus software for various control and application experiments.
 
 ## Setup and Requirements
 
@@ -56,5 +57,10 @@ The Median Filter computes the median of three consecutive samples, reducing the
   - `main.c`: Source code for the Median Filter.
   - `README.md`: Project-specific details.
 
-## License
-This repository is open-source and available under the MIT License.
+### Proteus Lab
+
+#### Overview
+The **Proteus Lab** folder includes circuit simulation files developed using Proteus software. These simulations are designed to test and validate various control and filtering methods applied in the lab. Each simulation demonstrates practical applications of the filters and control systems implemented in the course projects.
+
+#### Directory Structure
+- **`Proteus-Lab/`**: Contains Proteus simulation files and additional resources for various control experiments.
